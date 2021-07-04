@@ -10,10 +10,16 @@
 		E942008F2690889200DAD374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E942008E2690889200DAD374 /* AppDelegate.m */; };
 		E94200922690889200DAD374 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94200912690889200DAD374 /* SceneDelegate.m */; };
 		E94200952690889200DAD374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94200942690889200DAD374 /* ViewController.m */; };
-		E94200982690889200DAD374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94200962690889200DAD374 /* Main.storyboard */; };
 		E942009A2690889300DAD374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94200992690889300DAD374 /* Assets.xcassets */; };
 		E942009D2690889300DAD374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E942009B2690889300DAD374 /* LaunchScreen.storyboard */; };
 		E94200A02690889300DAD374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E942009F2690889300DAD374 /* main.m */; };
+		E958F8AC269098A500E695B3 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */; };
+		E958F8C32690A91D00E695B3 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */; };
+		E958F8C92690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */; };
+		E958F8CE2690CC2000E695B3 /* FormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E958F8CD2690CC2000E695B3 /* FormTextField.m */; };
+		E958F8D22690D75F00E695B3 /* UIButton+SetBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E958F8D12690D75F00E695B3 /* UIButton+SetBackgroundColor.m */; };
+		E958F8DB2690E19800E695B3 /* SecureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E958F8DA2690E19800E695B3 /* SecureView.m */; };
+		E9CAB0C22692012300AE4D75 /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAB0C12692012300AE4D75 /* Credentials.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +30,21 @@
 		E94200912690889200DAD374 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E94200932690889200DAD374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E94200942690889200DAD374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E94200972690889200DAD374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E94200992690889300DAD374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E942009C2690889300DAD374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E942009E2690889300DAD374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E942009F2690889300DAD374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		E958F8CC2690CC2000E695B3 /* FormTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormTextField.h; sourceTree = "<group>"; };
+		E958F8CD2690CC2000E695B3 /* FormTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormTextField.m; sourceTree = "<group>"; };
+		E958F8D02690D75F00E695B3 /* UIButton+SetBackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SetBackgroundColor.h"; sourceTree = "<group>"; };
+		E958F8D12690D75F00E695B3 /* UIButton+SetBackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SetBackgroundColor.m"; sourceTree = "<group>"; };
+		E958F8D92690E19800E695B3 /* SecureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureView.h; sourceTree = "<group>"; };
+		E958F8DA2690E19800E695B3 /* SecureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureView.m; sourceTree = "<group>"; };
+		E9CAB0C12692012300AE4D75 /* Credentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Credentials.m; sourceTree = "<group>"; };
+		E9CAB0C32692025600AE4D75 /* Credentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +77,62 @@
 		E942008C2690889200DAD374 /* rs.ios.stage-task7 */ = {
 			isa = PBXGroup;
 			children = (
+				E9CAB0C426923F9200AE4D75 /* Views */,
+				E9CAB0C02692011000AE4D75 /* Constants */,
+				E958F8CF2690D73900E695B3 /* Categories */,
+				E964CF7E2690980400CCFB77 /* Resources */,
 				E942008D2690889200DAD374 /* AppDelegate.h */,
 				E942008E2690889200DAD374 /* AppDelegate.m */,
 				E94200902690889200DAD374 /* SceneDelegate.h */,
 				E94200912690889200DAD374 /* SceneDelegate.m */,
 				E94200932690889200DAD374 /* ViewController.h */,
 				E94200942690889200DAD374 /* ViewController.m */,
-				E94200962690889200DAD374 /* Main.storyboard */,
 				E94200992690889300DAD374 /* Assets.xcassets */,
 				E942009B2690889300DAD374 /* LaunchScreen.storyboard */,
 				E942009E2690889300DAD374 /* Info.plist */,
 				E942009F2690889300DAD374 /* main.m */,
 			);
 			path = "rs.ios.stage-task7";
+			sourceTree = "<group>";
+		};
+		E958F8CF2690D73900E695B3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E958F8D02690D75F00E695B3 /* UIButton+SetBackgroundColor.h */,
+				E958F8D12690D75F00E695B3 /* UIButton+SetBackgroundColor.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E964CF7E2690980400CCFB77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */,
+				E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */,
+				E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+		E9CAB0C02692011000AE4D75 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E9CAB0C12692012300AE4D75 /* Credentials.m */,
+				E9CAB0C32692025600AE4D75 /* Credentials.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E9CAB0C426923F9200AE4D75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E958F8CC2690CC2000E695B3 /* FormTextField.h */,
+				E958F8CD2690CC2000E695B3 /* FormTextField.m */,
+				E958F8D92690E19800E695B3 /* SecureView.h */,
+				E958F8DA2690E19800E695B3 /* SecureView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E942009D2690889300DAD374 /* LaunchScreen.storyboard in Resources */,
+				E958F8AC269098A500E695B3 /* SF-Pro-Display-Bold.otf in Resources */,
+				E958F8C92690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf in Resources */,
+				E958F8C32690A91D00E695B3 /* SF-Pro-Display-Regular.otf in Resources */,
 				E942009A2690889300DAD374 /* Assets.xcassets in Resources */,
-				E94200982690889200DAD374 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94200952690889200DAD374 /* ViewController.m in Sources */,
+				E958F8DB2690E19800E695B3 /* SecureView.m in Sources */,
 				E942008F2690889200DAD374 /* AppDelegate.m in Sources */,
+				E958F8CE2690CC2000E695B3 /* FormTextField.m in Sources */,
 				E94200A02690889300DAD374 /* main.m in Sources */,
+				E958F8D22690D75F00E695B3 /* UIButton+SetBackgroundColor.m in Sources */,
+				E9CAB0C22692012300AE4D75 /* Credentials.m in Sources */,
 				E94200922690889200DAD374 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E94200962690889200DAD374 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E94200972690889200DAD374 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E942009B2690889300DAD374 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,6 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSCCGM92FS;
 				INFOPLIST_FILE = "rs.ios.stage-task7/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSCCGM92FS;
 				INFOPLIST_FILE = "rs.ios.stage-task7/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
