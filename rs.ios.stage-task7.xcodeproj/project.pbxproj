@@ -13,8 +13,8 @@
 		E942009A2690889300DAD374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94200992690889300DAD374 /* Assets.xcassets */; };
 		E942009D2690889300DAD374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E942009B2690889300DAD374 /* LaunchScreen.storyboard */; };
 		E94200A02690889300DAD374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E942009F2690889300DAD374 /* main.m */; };
+		E95223D426949BA800E95CB2 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E95223D326949BA800E95CB2 /* SF-Pro-Display-Regular.otf */; };
 		E958F8AC269098A500E695B3 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */; };
-		E958F8C32690A91D00E695B3 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */; };
 		E958F8C92690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */; };
 		E958F8CE2690CC2000E695B3 /* FormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E958F8CD2690CC2000E695B3 /* FormTextField.m */; };
 		E958F8D22690D75F00E695B3 /* UIButton+SetBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E958F8D12690D75F00E695B3 /* UIButton+SetBackgroundColor.m */; };
@@ -34,8 +34,8 @@
 		E942009C2690889300DAD374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E942009E2690889300DAD374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E942009F2690889300DAD374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95223D326949BA800E95CB2 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		E958F8CC2690CC2000E695B3 /* FormTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormTextField.h; sourceTree = "<group>"; };
 		E958F8CD2690CC2000E695B3 /* FormTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormTextField.m; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E958F8C82690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf */,
-				E958F8C22690A91D00E695B3 /* SF-Pro-Display-Regular.otf */,
+				E95223D326949BA800E95CB2 /* SF-Pro-Display-Regular.otf */,
 				E958F89A269098A300E695B3 /* SF-Pro-Display-Bold.otf */,
 			);
 			path = Resources;
@@ -194,7 +194,7 @@
 				E942009D2690889300DAD374 /* LaunchScreen.storyboard in Resources */,
 				E958F8AC269098A500E695B3 /* SF-Pro-Display-Bold.otf in Resources */,
 				E958F8C92690B2BA00E695B3 /* SF-Pro-Text-Semibold.otf in Resources */,
-				E958F8C32690A91D00E695B3 /* SF-Pro-Display-Regular.otf in Resources */,
+				E95223D426949BA800E95CB2 /* SF-Pro-Display-Regular.otf in Resources */,
 				E942009A2690889300DAD374 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
