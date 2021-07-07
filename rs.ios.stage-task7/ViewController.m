@@ -46,6 +46,7 @@
     
     // Form text fields
     self.loginTextField = [self createFormTextFieldWithPlaceholder:@"Login"];
+    [self.loginTextField setAutocorrectionType:UITextAutocorrectionTypeNo];
     self.passwordTextField = [self createFormTextFieldWithPlaceholder:@"Password"];
     self.passwordTextField.secureTextEntry = YES;
     
@@ -160,16 +161,17 @@
     
     if (!isLoginValueValid) {
         self.loginTextField.layer.borderColor = errorBorderColor;
+    } else {
+        self.loginTextField.layer.borderColor = successBorderColor;
     }
     
     if (!isPasswordValueValid) {
         self.passwordTextField.layer.borderColor = errorBorderColor;
+    } else {
+        self.passwordTextField.layer.borderColor = successBorderColor;
     }
     
     if (isLoginValueValid && isPasswordValueValid) {
-        self.loginTextField.layer.borderColor = successBorderColor;
-        self.passwordTextField.layer.borderColor = successBorderColor;
-        
         self.loginTextField.enabled = NO;
         self.passwordTextField.enabled = NO;
         self.authButton.enabled = NO;
@@ -198,8 +200,24 @@
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     textField.layer.borderColor = [UIColor colorNamed:@"CoralBlack"].CGColor;
     
+    if (textField == self.loginTextField) {
+        NSRegularExpression *regExp = [NSRegularExpression regularExpressionWithPattern:@"^[a-zA-Z0-9]*$" options:0 error:nil];
+        NSUInteger numberOFMatches = [regExp numberOfMatchesInString:string options:0 range:NSMakeRange(0, [string length])];
+
+        return numberOFMatches;
+    }
+    
+    
     return YES;
 }
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    if (CGColorEqualToColor(textField.layer.borderColor, [UIColor colorNamed:@"VenetianRed"].CGColor)) {
+        textField.text = @"";
+        textField.layer.borderColor = [UIColor colorNamed:@"CoralBlack"].CGColor;
+    }
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return YES;
@@ -209,7 +227,7 @@
 // MARK: SecureViewDelegate method
 - (void)passcodeValidHandler {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Welcome" message:@"You are successfuly authorized!" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *refreshAction = [UIAlertAction actionWithTitle:@"Refresh" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *refreshAction = [UIAlertAction actionWithTitle:@"Refresh" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         [self reset];
     }];
     [alert addAction:refreshAction];
